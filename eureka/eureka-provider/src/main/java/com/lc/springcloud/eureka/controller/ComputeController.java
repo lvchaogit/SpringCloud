@@ -1,4 +1,4 @@
-package com.lc.springcloud.erueka.controller;
+package com.lc.springcloud.eureka.controller;
 
 import java.util.List;
 
