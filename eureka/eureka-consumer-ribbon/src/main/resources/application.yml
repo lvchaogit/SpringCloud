@@ -1,0 +1,10 @@
+server:
+  port: 8083 # 服务端口
+eureka:
+  client:
+    register-with-eureka: false     #因此处只是消费，不提供服务，所以不需要向eureka server注册
+    service-url:
+      defaultZone: http://localhost:8081/eureka/ # 服务注册中心地址
+spring:
+  application:
+    name: eureka-consumer # 服务名称
