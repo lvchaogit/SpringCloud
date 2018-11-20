@@ -1,7 +1,8 @@
+
 spring:
     datasource:
       name: information
-      url: jdbc:mysql://localhost:3306/user_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+      url: jdbc:mysql://localhost:3306/local_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=UTC
       username: root
       password: root
       type: com.alibaba.druid.pool.DruidDataSource
