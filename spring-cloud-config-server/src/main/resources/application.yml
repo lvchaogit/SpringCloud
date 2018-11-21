@@ -1,10 +1,3 @@
 spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/lvchaogit/SpringCloud
-server:
-  port: 1201
+  profiles:
+    active: node1
